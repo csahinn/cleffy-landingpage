@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--METAs-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>cleffy | the symphony of future.</title>
+
+    <!--CSS FILES-->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" media="max-width:768px" href="/css/tablet.css">
+    <link rel="stylesheet" media="max-width:500px" href="/css/mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--FONT AND FONTAWESOME-->
+
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+    <link rel = "icon" href = "/img/cleffy renkli beyaz logo.png" 
+        type = "image/x-icon">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: Circular;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+
+<!-- NAVBAR MENU-->
+<body class="bg-cleffy-gradient">
+        <nav class="navbar navbar-expand-sm bg-transparent navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand ltr-space text-light pl-5" href="#"> <img src="/img/cleffy beyaz yazısız logo.png" width="25" height="40" class="d-inline-block align-center">  CLEFFY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <span class="navbar-text text-light">
+                the symphony of future.
+                  </span>
+              <ul class="navbar-nav ml-auto d-flex justify-content-start">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#">home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#pricing">pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">contact</a>
+                  </li>
+              </ul>
+            </div>
+            </div>
+          </nav>
+
+
+<!--CAROUSEL-->
+    <section id="slideshow">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="img-fluid d-block w-100 position-relative" src="/img/dylan-mcleod-VRdZBLqnoMU-unsplash.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="/img/photo-4.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid d-block w-100" src="/img/photo-5.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about">
+        <div class="container vh-100 txt-lighter">
+            <br><br><br><br>
+            <h1 class="text-center mt-1 pt-5 mb-5">About</h1>
+            <div>
+                <h2>What is Cleffy?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque perspiciatis 
+                    ipsam eaque neque accusantium, natus iure, sapiente molestias animi, possimus dolores! 
+                    Minima nisi repudiandae non, eum velit modi quam cumque eveniet illo. 
+                    </p>
+            </div>    
+        </div>
+    </section>
+    
+    <!--PRICING-->
+    <section id="pricing">
+        <div class="container mt-1 vh-100">
+            <br><br><br><br>
+            <h1 class="text-center mb-5 pt-xl-5 txt-lighter d-flex align-self-center justify-content-center">Pricing</h1>
+            <div class="cards d-flex mt-xl-5 text-center align-self-center justify-content-center">
+                <div id="card-free" class="card shadow p-3 mb-5 bg-white rounded"style ="border:none;" >
+                    <div class="card-body">
+                      <h5 class="card-title">Free</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">$ 0.00</h6>
+                      <p class="card-text">
+                        Access all songs and podcasts<br>
+                        Can be added permanently on library <br>
+                        Cleffy Studio featured<br>
+                    
+                      </p>
+                      <a href="#" class="btn btn-primary card-link" style="border:none; background-color: #6a0d83;">Purchase</a>
+                    </div>
+                  </div>
+                  <div id="card-pre" class="card ml-2 shadow p-3 mb-5 bg-white rounded" style ="border:none;">
+                    <div class="card-body">
+                      <h5 class="card-title">Premium</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">$ 9.99/mo</h6>
+                      <p class="card-text">All songs and podcasts.<br>
+                        Listenable offline.<br>
+                        Creatable and sharable playlists. <br>
+                        Accessable from all smart devices.
+
+                      </p>
+                      <a href="#" class="btn btn-primary card-link" style="border: none; background-color: #6a0d83;">Purchase</a>
+                    </div>
+                  </div>
+                  <div id="card-ult" class="card ml-2 shadow p-3 mb-5 bg-white rounded" style ="border:none;">
+                    <div class="card-body">
+                      <h5 class="card-title">Ultimate</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">$ 12.99/mo</h6>
+                      <p class="card-text">All songs and podcasts<br>
+                        Listenable offline<br>
+                        Creatable and sharable playlists <br>
+                        Accessable from all smart devices<br>
+                        Cleffy Studio<br>
+                        Concert+<br>
+                    </p>
+        
+                      <a href="#" class="btn btn-primary card-link" style="border: none; background-color: #6a0d83;">Purchase</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+    <footer id="contact" class="container-fluid bg-dark text-light">
+           Copyright © 2020 Cleffy. All rights reserved. 
+    </footer>
+
+    <script type="text/javascript" src="/js/app.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

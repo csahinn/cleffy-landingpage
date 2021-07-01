@@ -1,0 +1,51 @@
+.bg-cleffy-purp {
+    background-color: #6a0d83;
+}
+
+.bg-cleffy-org {
+    background-color: #fb9062;
+}
+
+.bg-cleffy-pink {
+    background-color: #ce4993;
+}
+
+.bg-cleffy-gradient {
+    background-image: linear-gradient(to left top, #6a0d83, #7f1686, #932089, #a62c8c, #b8388f, #c8408b, #d64988, #e35484, #ee6079, #f66f70, #fa7f68, #fb9062);
+}
+
+.txt-lighter {
+    color: #fff;
+}
+
+.txt-org {
+    color:#fb9062;
+}
+.txt.pink{
+    color:#ce4993;
+}
+.txt-purp{
+    color:#6a0d83;
+}
+
+.pd-lr-5 {
+    padding: 0 5px;
+}
+
+.card {
+    width: 50%;
+    height: 30%;
+}
+
+ul {
+    list-style-type: none;
+}   
+
+.ltr-space{
+    letter-spacing: 3px;
+}
+
+.padtop-10{
+    padding-top: 10px;
+}
+
