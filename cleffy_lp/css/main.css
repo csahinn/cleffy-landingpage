@@ -29,3 +29,14 @@ section, #carouselExampleIndicators {
 img {
     max-height: 100vh;
 }
+
+form {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+a #btn-submit {
+    display: flex;
+    justify-content: flex-end;
+}

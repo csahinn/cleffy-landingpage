@@ -19,6 +19,9 @@
     
     <!--FONT AND FONTAWESOME-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
@@ -32,8 +35,13 @@
             padding: 0;
             box-sizing: border-box;
             text-decoration: none;
-            font-family: Circular;
-        }
+            
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+}
+        
         .carousel-inner img {
             width: 100%;
             height: 100%;
@@ -173,7 +181,24 @@
     </section>
 
     <!--CONTACT-->
-    <section id="contact"> </section>
+    <section id="contact">
+      <div class="container mt-1 vh-100">
+        <br><br><br><br>
+          <h1 class="text-center mb-5 pt-xl-5 txt-lighter d-flex align-self-center justify-content-center">Contact</h1>
+
+          <form>
+            <div class="form-group" id="form_email">
+              <label for="exampleFormControlInput1" style="color:white;">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group" id="form_input">
+              <label for="exampleFormControlTextarea1" style="color:white;" required>Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            </div>
+            <a href="#" id="btn-submit" class="btn btn-primary card-link" style="border: none; background-color: #6a0d83;">Submit</a>
+          </form>
+      </div>
+    </section>
     <footer id="contact" class="container-fluid bg-dark text-light">
            Copyright © 2020 Cleffy. All rights reserved. 
     </footer>
