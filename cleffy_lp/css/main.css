@@ -40,3 +40,8 @@ a #btn-submit {
     display: flex;
     justify-content: flex-end;
 }
+
+#card-ult, #card-pre {
+    transition: height 0.5s;
+}
+

@@ -35,7 +35,9 @@
 .card {
     width: 50%;
     height: 30%;
+    transition: height 0.5s;
 }
+
 
 ul {
     list-style-type: none;
